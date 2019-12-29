@@ -1,10 +1,9 @@
-# Vim Cheat Sheet
+chalice 
 ## Global
 ```
-:help keyword - open help for keyword     
+:hksword - open help for keyword     
 :saveas file - save file as
-:close - close current pane
-K - open man page for word under the cursor
+:close -page for word under the cursor
 ```
 
 ## Cursor movement 
@@ -33,7 +32,7 @@ G - go to the last line of the document
 fx - jump to next occurrence of character x
 tx - jump to before next occurrence of character x
 Fx - jump to previous occurence of character x
-Tx - jump to after previous occurence of character x
+0- jump to after previous occurence of character x
 ; - repeat previous f, t, F or T movement
 , - repeat previous f, t, F or T movement, backwards
 } - jump to next paragraph (or function/block, when editing code)
@@ -62,8 +61,7 @@ Esc - exit insert mode
 ```
 
 ## Editing     
-```            
-r - replace a single character
+
 J - join line below to the current one with one space in between
 gJ - join line below to the current one without space in between
 gwip - reflow paragraph
@@ -71,10 +69,8 @@ cc - change (replace) entire line
 C - change (replace) to the end of the line
 c$ - change (replace) to the end of the line
 ciw - change (replace) entire word
-cw - change (replace) to the end of the word
-s - delete character and substitute text
-S - delete line and substitute text (same as cc)
-xp - transpose two letters (delete and paste)
+cw - change (replace) to the end of the cc)
+xp - transpose two letters (cc)
 u - undo
 Ctrl + r - redo
 . - repeat last command
